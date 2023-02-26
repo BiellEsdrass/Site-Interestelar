@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="scss/style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body >
@@ -28,10 +30,14 @@
         </div>
 </div>
 
+<div class="logo">
+    <img src="img/logoOfBackGround.png" alt="">
+</div>
+
 
 <!-- AQUI FICA O BLOCO ONDE CONTÉM A SINOPSE E O TRAILER -->
-<section class="info" id="trailerAba">
-        <div class="info__left">
+<section class="info" id="trailerAba" >
+        <div class="info__left"  data-aos="fade-right">
             <h1>SINOPSE:</h1>
             <p>As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.</p>
 
@@ -41,10 +47,10 @@
 
                 <div class="info__left__watch__btns">
 
-                    <button class="btnWatch">
-                        <span><img src="img/primeVideo.png" alt="">Prime Video</span>
+                    <button class="btnWatch"  data-aos="fade" data-aos-duration="3000">
+                        <span><img src="img/primeVideo.png" alt="" >Prime Video</span>
                     </button>
-                    <button class="btnWatch">
+                    <button class="btnWatch"  data-aos="fade" data-aos-duration="3000">
                         <span><img src="img/hbomax.png" alt="">HBO Max</span>
                     </button>
                     
@@ -54,7 +60,7 @@
             </div>
         </div>
 
-        <div class="info__right">
+        <div class="info__right"  data-aos="fade-up">
             <h1>TRAILER</h1>
             <img id="imgTrailer" src="img/Trailer.jpg" alt="">
         </div>
@@ -73,6 +79,11 @@
 
 
     <script src="main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

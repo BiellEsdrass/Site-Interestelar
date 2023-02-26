@@ -28,6 +28,23 @@ body{
     $color--secondary: #4a00e0;
 }
 
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+
+    img{
+        height: 15rem;
+    }
+}
+
+
+
+
+
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
