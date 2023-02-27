@@ -9,4 +9,20 @@ imgTrailer.addEventListener('mouseover', function(){
 })
 
 
+let trailerVideo = document.getElementById('video__trailer');
+let closeTrailerVideo = document.getElementById('close__video__trailer');
+let trailerBlur = document.getElementById('trailer__blur');
+
+
+imgTrailer.addEventListener('click', function(){
+    trailerVideo.style.display = "block";
+    trailerVideo.style.opacity = "1";
+    trailerBlur.style.display = 'block';
+})
+
+closeTrailerVideo.addEventListener('click', function(){
+    trailerVideo.style.display = "none";
+    trailerVideo.style.opacity = "0";
+    trailerBlur.style.display = 'none';
+})
 

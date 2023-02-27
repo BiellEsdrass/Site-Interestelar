@@ -8,6 +8,7 @@
     <title>Interestelar - Site</title>
 
     <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="responsivo/respon.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -37,31 +38,50 @@
 
 <!-- AQUI FICA O BLOCO ONDE CONTÉM A SINOPSE E O TRAILER -->
 <section class="info" id="trailerAba" >
-        <div class="info__left"  data-aos="fade-right">
-            <h1>SINOPSE:</h1>
-            <p>As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.</p>
+        
+        <div class="trailer__blur" id="trailer__blur"></div>
 
-            <div class="line"></div>
+        <div class="info__trailer" id="video__trailer">
+
+            <img src="img/close_video.png" alt="" id="close__video__trailer">
+
+            <div class="info__trailer__video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mbbPSq63yuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="info__left">
+            <h1>SINOPSE:</h1>
+            <p  >As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.</p>
+
+            <div  class="line"></div>
             <div class="info__left__watch">
                 <h2>ASSISTA AGORA EM</h2>
 
                 <div class="info__left__watch__btns">
 
-                    <button class="btnWatch"  data-aos="fade" data-aos-duration="3000">
+                    <button class="btnWatch">
                         <span><img src="img/primeVideo.png" alt="" >Prime Video</span>
                     </button>
-                    <button class="btnWatch"  data-aos="fade" data-aos-duration="3000">
+                    <button class="btnWatch">
                         <span><img src="img/hbomax.png" alt="">HBO Max</span>
                     </button>
                     
                 </div>
 
-                <p>Interstellar é um filme épico que leva o espectador em uma jornada emocionante e repleta de descobertas. Se você nunca assistiu a este filme, prepare-se para uma experiência cinematográfica verdadeiramente única e surpreendente.</p>
+                <p >Interstellar é um filme épico que leva o espectador em uma jornada emocionante e repleta de descobertas. Se você nunca assistiu a este filme, prepare-se para uma experiência cinematográfica verdadeiramente única e surpreendente.</p>
             </div>
         </div>
 
-        <div class="info__right"  data-aos="fade-up">
+        <div class="info__right" >
             <h1>TRAILER</h1>
+            <p>Clique para iniciar!</p>
             <img id="imgTrailer" src="img/Trailer.jpg" alt="">
         </div>
 </section>
@@ -69,7 +89,81 @@
 
 
 <section class="elenco" id="elencoAba">
+    <h1>Elenco</h1>
 
+    <div class="elenco__actors" data-aos="fade-right" data-aos-duration="1000">
+        <div class="actor">
+            <img src="img/actors/Matthew_McConaughey.jpg" alt="Foto do Matthew_McConaughey">
+            <div class="actor__desc">
+                <h3>Matthew McConaughey</h3>
+                <p>Joseph Cooper</p>
+            </div>
+        </div>
+
+        <div class="actor">
+            <img src="img/actors/mackenzie_foy.jpg" alt="foto da mackenzie_foy">
+            <div class="actor__desc">
+                <h3>Mackenzie Foy</h3>
+                <p>Murphy Cooper</p>
+            </div>
+        </div>
+
+        <div class="actor">
+            <img src="img/actors/Amelia_Brand.jpg" alt="foto da Amelia_Brand">
+            <div class="actor__desc">
+                <h3>Amelia Brand</h3>
+                <p>Anne Hathaway</p>
+            </div>
+        </div>
+
+        <div class="actor">
+            <img src="img/actors/jessica_chastain.jpg" alt="foto da jessica_chastain">
+            <div class="actor__desc">
+                <h3>Jessica Chastain</h3>
+                <p>Murphy Cooper</p>
+            </div>
+        </div>
+
+        <div class="actor">
+            <img src="img/actors/Matt_Damon.jpg" alt="foto do Matt_Damon">
+            <div class="actor__desc">
+                <h3>Matt Damon</h3>
+                <p>Dr. Mann</p>
+            </div>
+        </div>
+
+        <div class="actor">
+            <img src="img/actors/Timothée_Chalamet.jpg" alt="foto do Timothée_Chalamet">
+            <div class="actor__desc">
+                <h3>Timothée Chalamet</h3>
+                <p>Tom Cooper</p>
+            </div>
+        </div>
+
+        <div class="actor">
+            <img src="img/actors/Michael_Caine.jpg" alt="foto do Michael_Caine">
+            <div class="actor__desc">
+                <h3>Michael Caine</h3>
+                <p>Prof. Brand</p>
+            </div>
+        </div>
+
+        <div class="actor">
+            <img src="img/actors/david gyasi.jpg" alt="foto do david gyasi">
+            <div class="actor__desc">
+                <h3>David Gyasi</h3>
+                <p>Romily</p>
+            </div>
+        </div>
+
+        <div class="actor">
+            <img src="img/actors/tars.jpg" alt="foto do TARS">
+            <div class="actor__desc">
+                <h3>Bill Irwin</h3>
+                <p>TARS</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 
