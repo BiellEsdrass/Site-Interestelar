@@ -70,7 +70,11 @@ body {
 .info {
   height: auto;
   padding: 5rem 3rem;
-  background-color: #04111C;
+  background-color: transparent;
+  -webkit-backdrop-filter: brightness(50%) blur(10px);
+          backdrop-filter: brightness(50%) blur(10px);
+  border-top: 2px solid rgba(255, 255, 255, 0.447);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.447);
   position: relative;
   top: 80vh;
   display: flex;
@@ -195,6 +199,10 @@ body {
 }
 .info .info__right {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .info .info__right p {
   text-align: center;
@@ -238,8 +246,8 @@ body {
   gap: 2rem;
   margin-top: 2rem;
   width: 100%;
-  overflow-x: auto;
   margin-bottom: 3rem;
+  overflow-x: auto;
   scrollbar-color: #6b20ff black !important;
   scrollbar-width: thin !important;
 }

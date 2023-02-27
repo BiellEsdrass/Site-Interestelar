@@ -88,7 +88,23 @@
     width: 100%;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 1360px) {
+  .info__trailer {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .info__trailer img {
+    left: 100%;
+    top: 0%;
+    height: 4rem;
+    cursor: pointer;
+  }
+  .info__trailer .info__trailer__video iframe {
+    height: 20rem;
+    width: 40rem;
+  }
+}
+@media (max-width: 900px) {
   .logo {
     position: absolute;
     left: 50%;
@@ -97,6 +113,54 @@
   }
   .logo img {
     height: 12rem;
+  }
+  .info .info__trailer {
+    position: absolute;
+    z-index: 110;
+    top: 10%;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 840px) {
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .logo img {
+    height: 12rem;
+  }
+  .info .info__trailer {
+    position: absolute;
+    z-index: 110;
+    top: 10%;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+  }
+  .info .info__trailer img {
+    left: 100%;
+    top: 0%;
+    height: 4rem;
+    cursor: pointer;
+  }
+  .info .info__trailer .info__trailer__video iframe {
+    height: 25rem;
+    width: 39rem;
+  }
+}
+@media (max-width: 770px) {
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .logo img {
+    height: 10rem;
   }
   .info .info__trailer {
     position: absolute;
@@ -118,7 +182,35 @@
   }
   .info .info__trailer .info__trailer__video iframe {
     height: 25rem;
-    width: 45rem;
+    width: 39rem;
+  }
+}
+@media (max-width: 710px) {
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .logo img {
+    height: 10rem;
+  }
+  .info .info__trailer {
+    position: absolute;
+    z-index: 110;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .info .info__trailer img {
+    left: 100%;
+    top: 0%;
+    height: 4rem;
+    cursor: pointer;
+  }
+  .info .info__trailer .info__trailer__video iframe {
+    height: 23rem;
+    width: 30rem;
   }
 }
 @media (max-width: 620px) {
@@ -129,7 +221,7 @@
     transform: translate(-50%, -50%);
   }
   .logo img {
-    height: 10rem;
+    height: 8rem;
   }
   .info .info__trailer .info__trailer__video iframe {
     height: 25rem;
@@ -144,7 +236,7 @@
     transform: translate(-50%, -50%);
   }
   .logo img {
-    height: 8rem;
+    height: 7rem;
   }
   .info .info__trailer .info__trailer__video iframe {
     height: 20rem;
@@ -159,7 +251,7 @@
     transform: translate(-50%, -50%);
   }
   .logo img {
-    height: 7.5rem;
+    height: 6rem;
   }
   .info {
     height: auto;
@@ -253,7 +345,7 @@
     transform: translate(-50%, -50%);
   }
   .logo img {
-    height: 7.5rem;
+    height: 5.5rem;
   }
   .info {
     height: auto;
