@@ -207,9 +207,15 @@ body{
                     color: ghostwhite;
                     overflow: hidden;
                     width: 15rem;
+                    cursor: pointer;
 
                     margin-top: 1rem;
 
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
                     span {
                         position: relative;
                         z-index: 10;

@@ -157,7 +157,12 @@ body {
   color: ghostwhite;
   overflow: hidden;
   width: 15rem;
+  cursor: pointer;
   margin-top: 1rem;
+}
+.info .info__left .info__left__watch .info__left__watch__btns .btnWatch a {
+  text-decoration: none;
+  color: white;
 }
 .info .info__left .info__left__watch .info__left__watch__btns .btnWatch span {
   position: relative;
